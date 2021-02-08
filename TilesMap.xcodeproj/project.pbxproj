@@ -1,0 +1,903 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F253C4C25CC6DD600D91CC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F253C4B25CC6DD600D91CC2 /* AppDelegate.swift */; };
+		1F253C5025CC6DD600D91CC2 /* TilesetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F253C4F25CC6DD600D91CC2 /* TilesetsViewController.swift */; };
+		1F253C5325CC6DD600D91CC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F253C5125CC6DD600D91CC2 /* Main.storyboard */; };
+		1F253C5525CC6DD900D91CC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F253C5425CC6DD900D91CC2 /* Assets.xcassets */; };
+		1F253C5825CC6DD900D91CC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F253C5625CC6DD900D91CC2 /* LaunchScreen.storyboard */; };
+		1F253C6325CC6DD900D91CC2 /* TilesMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F253C6225CC6DD900D91CC2 /* TilesMapTests.swift */; };
+		1F253C6E25CC6DD900D91CC2 /* TilesMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F253C6D25CC6DD900D91CC2 /* TilesMapUITests.swift */; };
+		1F253C8825CC773900D91CC2 /* GetTilesetsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F253C8325CC773900D91CC2 /* GetTilesetsRequest.swift */; };
+		1F253C9025CC81A300D91CC2 /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F253C8F25CC81A300D91CC2 /* Tile.swift */; };
+		1F253D4625CE6EF900D91CC2 /* Farm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F253D4525CE6EF900D91CC2 /* Farm.swift */; };
+		1F253D6325CEA4BC00D91CC2 /* TilesetTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F253D6225CEA4BC00D91CC2 /* TilesetTVCell.swift */; };
+		1F253D6825CEA98600D91CC2 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F253D6725CEA98600D91CC2 /* MapViewController.swift */; };
+		1F253D7025CEF90400D91CC2 /* TilesetsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F253D6F25CEF90400D91CC2 /* TilesetsViewModel.swift */; };
+		1F671B1325D030D600062CF4 /* UIImageView+NSCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F671B1225D030D600062CF4 /* UIImageView+NSCache.swift */; };
+		1F9709F625D1C59A000E22B6 /* DataSource.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 1F96681B25D1C51300EC4923 /* DataSource.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1FE1B4C625D1E42400390103 /* NetworkLayer.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 1FE1B4BA25D1E40700390103 /* NetworkLayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		465CBF79E4C0AB2D8E48B32C /* Pods_TilesMapTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C5DC21FF677B03E3D19ACBC /* Pods_TilesMapTests.framework */; };
+		A7EA15CA324ECD18B50FEEC5 /* Pods_TilesMap_TilesMapUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF53B3476B7A70E5E7CB7BF /* Pods_TilesMap_TilesMapUITests.framework */; };
+		BE4D6E2AC95327D482B86CD6 /* Pods_TilesMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43EA7D1FACA7E2C042CD43E1 /* Pods_TilesMap.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F253C5F25CC6DD900D91CC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F253C4025CC6DD500D91CC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F253C4725CC6DD500D91CC2;
+			remoteInfo = TilesMap;
+		};
+		1F253C6A25CC6DD900D91CC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F253C4025CC6DD500D91CC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F253C4725CC6DD500D91CC2;
+			remoteInfo = TilesMap;
+		};
+		1F96681A25D1C51300EC4923 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F96681625D1C51300EC4923 /* DataSource.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1F96672225D19B6200EC4923;
+			remoteInfo = DataSource;
+		};
+		1FE1B4B925D1E40700390103 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FE1B4B425D1E40700390103 /* NetworkLayer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1FE0822A25D1E14700ECD1A4;
+			remoteInfo = NetworkLayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1F96681C25D1C53A00EC4923 /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1F9709F625D1C59A000E22B6 /* DataSource.framework in Copy Frameworks */,
+				1FE1B4C625D1E42400390103 /* NetworkLayer.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1BEACC9CFE25C2DD4257A274 /* Pods-TilesMapTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TilesMapTests.debug.xcconfig"; path = "Target Support Files/Pods-TilesMapTests/Pods-TilesMapTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1E8297783493D6F11B735DC7 /* Pods-TilesMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TilesMap.release.xcconfig"; path = "Target Support Files/Pods-TilesMap/Pods-TilesMap.release.xcconfig"; sourceTree = "<group>"; };
+		1F253C4825CC6DD500D91CC2 /* TilesMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TilesMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F253C4B25CC6DD600D91CC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F253C4F25CC6DD600D91CC2 /* TilesetsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TilesetsViewController.swift; sourceTree = "<group>"; };
+		1F253C5225CC6DD600D91CC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F253C5425CC6DD900D91CC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F253C5725CC6DD900D91CC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F253C5925CC6DD900D91CC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F253C5E25CC6DD900D91CC2 /* TilesMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TilesMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F253C6225CC6DD900D91CC2 /* TilesMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TilesMapTests.swift; sourceTree = "<group>"; };
+		1F253C6425CC6DD900D91CC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F253C6925CC6DD900D91CC2 /* TilesMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TilesMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F253C6D25CC6DD900D91CC2 /* TilesMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TilesMapUITests.swift; sourceTree = "<group>"; };
+		1F253C6F25CC6DD900D91CC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F253C8325CC773900D91CC2 /* GetTilesetsRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetTilesetsRequest.swift; sourceTree = "<group>"; };
+		1F253C8F25CC81A300D91CC2 /* Tile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
+		1F253D4525CE6EF900D91CC2 /* Farm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Farm.swift; sourceTree = "<group>"; };
+		1F253D6225CEA4BC00D91CC2 /* TilesetTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TilesetTVCell.swift; sourceTree = "<group>"; };
+		1F253D6725CEA98600D91CC2 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		1F253D6F25CEF90400D91CC2 /* TilesetsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TilesetsViewModel.swift; sourceTree = "<group>"; };
+		1F671B1225D030D600062CF4 /* UIImageView+NSCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+NSCache.swift"; sourceTree = "<group>"; };
+		1F96681625D1C51300EC4923 /* DataSource.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DataSource.xcodeproj; path = DataSource/DataSource.xcodeproj; sourceTree = "<group>"; };
+		1FE1B4B425D1E40700390103 /* NetworkLayer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NetworkLayer.xcodeproj; path = NetworkLayer/NetworkLayer.xcodeproj; sourceTree = "<group>"; };
+		294491C322062844B056C892 /* Pods-TilesMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TilesMap.debug.xcconfig"; path = "Target Support Files/Pods-TilesMap/Pods-TilesMap.debug.xcconfig"; sourceTree = "<group>"; };
+		43EA7D1FACA7E2C042CD43E1 /* Pods_TilesMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TilesMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F8D09C3CFDBBE062F2CB686 /* Pods-TilesMap-TilesMapUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TilesMap-TilesMapUITests.release.xcconfig"; path = "Target Support Files/Pods-TilesMap-TilesMapUITests/Pods-TilesMap-TilesMapUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6C5DC21FF677B03E3D19ACBC /* Pods_TilesMapTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TilesMapTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85C4CFD1D8788CB0E1F45E32 /* Pods-TilesMap-TilesMapUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TilesMap-TilesMapUITests.debug.xcconfig"; path = "Target Support Files/Pods-TilesMap-TilesMapUITests/Pods-TilesMap-TilesMapUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DD7FC21BDF362438EA660534 /* Pods-TilesMapTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TilesMapTests.release.xcconfig"; path = "Target Support Files/Pods-TilesMapTests/Pods-TilesMapTests.release.xcconfig"; sourceTree = "<group>"; };
+		EFF53B3476B7A70E5E7CB7BF /* Pods_TilesMap_TilesMapUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TilesMap_TilesMapUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F253C4525CC6DD500D91CC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE4D6E2AC95327D482B86CD6 /* Pods_TilesMap.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F253C5B25CC6DD900D91CC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				465CBF79E4C0AB2D8E48B32C /* Pods_TilesMapTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F253C6625CC6DD900D91CC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7EA15CA324ECD18B50FEEC5 /* Pods_TilesMap_TilesMapUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F0B19FB25D11FD0005C20E8 /* Tilesets */ = {
+			isa = PBXGroup;
+			children = (
+				1F253C4F25CC6DD600D91CC2 /* TilesetsViewController.swift */,
+				1F253D6F25CEF90400D91CC2 /* TilesetsViewModel.swift */,
+				1F253D6225CEA4BC00D91CC2 /* TilesetTVCell.swift */,
+			);
+			path = Tilesets;
+			sourceTree = "<group>";
+		};
+		1F0B19FC25D12025005C20E8 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				1F253D6725CEA98600D91CC2 /* MapViewController.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		1F253C3F25CC6DD500D91CC2 = {
+			isa = PBXGroup;
+			children = (
+				1F96681525D1C4B100EC4923 /* Dependencies */,
+				1F253C4A25CC6DD600D91CC2 /* TilesMap */,
+				1F253C6125CC6DD900D91CC2 /* TilesMapTests */,
+				1F253C6C25CC6DD900D91CC2 /* TilesMapUITests */,
+				1F253C4925CC6DD500D91CC2 /* Products */,
+				39B25AA25F352A1CC6D65E6E /* Pods */,
+				47F5704282FC18105CA1CE28 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1F253C4925CC6DD500D91CC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F253C4825CC6DD500D91CC2 /* TilesMap.app */,
+				1F253C5E25CC6DD900D91CC2 /* TilesMapTests.xctest */,
+				1F253C6925CC6DD900D91CC2 /* TilesMapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F253C4A25CC6DD600D91CC2 /* TilesMap */ = {
+			isa = PBXGroup;
+			children = (
+				1F671B6125D0876400062CF4 /* Models */,
+				1F671B1125D030AF00062CF4 /* Extentions */,
+				1F253C7E25CC773900D91CC2 /* NetworkLayer */,
+				1F0B19FB25D11FD0005C20E8 /* Tilesets */,
+				1F0B19FC25D12025005C20E8 /* Map */,
+				1F253C4B25CC6DD600D91CC2 /* AppDelegate.swift */,
+				1F253C5125CC6DD600D91CC2 /* Main.storyboard */,
+				1F253C5425CC6DD900D91CC2 /* Assets.xcassets */,
+				1F253C5625CC6DD900D91CC2 /* LaunchScreen.storyboard */,
+				1F253C5925CC6DD900D91CC2 /* Info.plist */,
+			);
+			path = TilesMap;
+			sourceTree = "<group>";
+		};
+		1F253C6125CC6DD900D91CC2 /* TilesMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F253C6225CC6DD900D91CC2 /* TilesMapTests.swift */,
+				1F253C6425CC6DD900D91CC2 /* Info.plist */,
+			);
+			path = TilesMapTests;
+			sourceTree = "<group>";
+		};
+		1F253C6C25CC6DD900D91CC2 /* TilesMapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1F253C6D25CC6DD900D91CC2 /* TilesMapUITests.swift */,
+				1F253C6F25CC6DD900D91CC2 /* Info.plist */,
+			);
+			path = TilesMapUITests;
+			sourceTree = "<group>";
+		};
+		1F253C7E25CC773900D91CC2 /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				1F253C8325CC773900D91CC2 /* GetTilesetsRequest.swift */,
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		1F671B1125D030AF00062CF4 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				1F671B1225D030D600062CF4 /* UIImageView+NSCache.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		1F671B6125D0876400062CF4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1F253C8F25CC81A300D91CC2 /* Tile.swift */,
+				1F253D4525CE6EF900D91CC2 /* Farm.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1F96681525D1C4B100EC4923 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				1FE1B4B425D1E40700390103 /* NetworkLayer.xcodeproj */,
+				1F96681625D1C51300EC4923 /* DataSource.xcodeproj */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		1F96681725D1C51300EC4923 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F96681B25D1C51300EC4923 /* DataSource.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FE1B4B525D1E40700390103 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FE1B4BA25D1E40700390103 /* NetworkLayer.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39B25AA25F352A1CC6D65E6E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				294491C322062844B056C892 /* Pods-TilesMap.debug.xcconfig */,
+				1E8297783493D6F11B735DC7 /* Pods-TilesMap.release.xcconfig */,
+				85C4CFD1D8788CB0E1F45E32 /* Pods-TilesMap-TilesMapUITests.debug.xcconfig */,
+				5F8D09C3CFDBBE062F2CB686 /* Pods-TilesMap-TilesMapUITests.release.xcconfig */,
+				1BEACC9CFE25C2DD4257A274 /* Pods-TilesMapTests.debug.xcconfig */,
+				DD7FC21BDF362438EA660534 /* Pods-TilesMapTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		47F5704282FC18105CA1CE28 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43EA7D1FACA7E2C042CD43E1 /* Pods_TilesMap.framework */,
+				EFF53B3476B7A70E5E7CB7BF /* Pods_TilesMap_TilesMapUITests.framework */,
+				6C5DC21FF677B03E3D19ACBC /* Pods_TilesMapTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F253C4725CC6DD500D91CC2 /* TilesMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F253C7225CC6DD900D91CC2 /* Build configuration list for PBXNativeTarget "TilesMap" */;
+			buildPhases = (
+				5F982CACF099367E1C8CB27D /* [CP] Check Pods Manifest.lock */,
+				1F253C4425CC6DD500D91CC2 /* Sources */,
+				1F253C4525CC6DD500D91CC2 /* Frameworks */,
+				1F253C4625CC6DD500D91CC2 /* Resources */,
+				2C74A7AAAEEDEFDCA344D154 /* [CP] Embed Pods Frameworks */,
+				1F96681C25D1C53A00EC4923 /* Copy Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TilesMap;
+			productName = TilesMap;
+			productReference = 1F253C4825CC6DD500D91CC2 /* TilesMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F253C5D25CC6DD900D91CC2 /* TilesMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F253C7525CC6DD900D91CC2 /* Build configuration list for PBXNativeTarget "TilesMapTests" */;
+			buildPhases = (
+				23202EBD11C5A2B6C2C9E45E /* [CP] Check Pods Manifest.lock */,
+				1F253C5A25CC6DD900D91CC2 /* Sources */,
+				1F253C5B25CC6DD900D91CC2 /* Frameworks */,
+				1F253C5C25CC6DD900D91CC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F253C6025CC6DD900D91CC2 /* PBXTargetDependency */,
+			);
+			name = TilesMapTests;
+			productName = TilesMapTests;
+			productReference = 1F253C5E25CC6DD900D91CC2 /* TilesMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1F253C6825CC6DD900D91CC2 /* TilesMapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F253C7825CC6DD900D91CC2 /* Build configuration list for PBXNativeTarget "TilesMapUITests" */;
+			buildPhases = (
+				4A499E656F7ABC8630DB1CFF /* [CP] Check Pods Manifest.lock */,
+				1F253C6525CC6DD900D91CC2 /* Sources */,
+				1F253C6625CC6DD900D91CC2 /* Frameworks */,
+				1F253C6725CC6DD900D91CC2 /* Resources */,
+				E37530A8F0A87D71A196BD23 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F253C6B25CC6DD900D91CC2 /* PBXTargetDependency */,
+			);
+			name = TilesMapUITests;
+			productName = TilesMapUITests;
+			productReference = 1F253C6925CC6DD900D91CC2 /* TilesMapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F253C4025CC6DD500D91CC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					1F253C4725CC6DD500D91CC2 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					1F253C5D25CC6DD900D91CC2 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 1F253C4725CC6DD500D91CC2;
+					};
+					1F253C6825CC6DD900D91CC2 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 1F253C4725CC6DD500D91CC2;
+					};
+				};
+			};
+			buildConfigurationList = 1F253C4325CC6DD500D91CC2 /* Build configuration list for PBXProject "TilesMap" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F253C3F25CC6DD500D91CC2;
+			productRefGroup = 1F253C4925CC6DD500D91CC2 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 1F96681725D1C51300EC4923 /* Products */;
+					ProjectRef = 1F96681625D1C51300EC4923 /* DataSource.xcodeproj */;
+				},
+				{
+					ProductGroup = 1FE1B4B525D1E40700390103 /* Products */;
+					ProjectRef = 1FE1B4B425D1E40700390103 /* NetworkLayer.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1F253C4725CC6DD500D91CC2 /* TilesMap */,
+				1F253C5D25CC6DD900D91CC2 /* TilesMapTests */,
+				1F253C6825CC6DD900D91CC2 /* TilesMapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		1F96681B25D1C51300EC4923 /* DataSource.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = DataSource.framework;
+			remoteRef = 1F96681A25D1C51300EC4923 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1FE1B4BA25D1E40700390103 /* NetworkLayer.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = NetworkLayer.framework;
+			remoteRef = 1FE1B4B925D1E40700390103 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F253C4625CC6DD500D91CC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F253C5825CC6DD900D91CC2 /* LaunchScreen.storyboard in Resources */,
+				1F253C5525CC6DD900D91CC2 /* Assets.xcassets in Resources */,
+				1F253C5325CC6DD600D91CC2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F253C5C25CC6DD900D91CC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F253C6725CC6DD900D91CC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23202EBD11C5A2B6C2C9E45E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TilesMapTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C74A7AAAEEDEFDCA344D154 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TilesMap/Pods-TilesMap-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TilesMap/Pods-TilesMap-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TilesMap/Pods-TilesMap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A499E656F7ABC8630DB1CFF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TilesMap-TilesMapUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F982CACF099367E1C8CB27D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TilesMap-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E37530A8F0A87D71A196BD23 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TilesMap-TilesMapUITests/Pods-TilesMap-TilesMapUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TilesMap-TilesMapUITests/Pods-TilesMap-TilesMapUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TilesMap-TilesMapUITests/Pods-TilesMap-TilesMapUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F253C4425CC6DD500D91CC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F253C5025CC6DD600D91CC2 /* TilesetsViewController.swift in Sources */,
+				1F253D6825CEA98600D91CC2 /* MapViewController.swift in Sources */,
+				1F253D6325CEA4BC00D91CC2 /* TilesetTVCell.swift in Sources */,
+				1F253C4C25CC6DD600D91CC2 /* AppDelegate.swift in Sources */,
+				1F253C8825CC773900D91CC2 /* GetTilesetsRequest.swift in Sources */,
+				1F253C9025CC81A300D91CC2 /* Tile.swift in Sources */,
+				1F253D4625CE6EF900D91CC2 /* Farm.swift in Sources */,
+				1F671B1325D030D600062CF4 /* UIImageView+NSCache.swift in Sources */,
+				1F253D7025CEF90400D91CC2 /* TilesetsViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F253C5A25CC6DD900D91CC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F253C6325CC6DD900D91CC2 /* TilesMapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F253C6525CC6DD900D91CC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F253C6E25CC6DD900D91CC2 /* TilesMapUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F253C6025CC6DD900D91CC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F253C4725CC6DD500D91CC2 /* TilesMap */;
+			targetProxy = 1F253C5F25CC6DD900D91CC2 /* PBXContainerItemProxy */;
+		};
+		1F253C6B25CC6DD900D91CC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F253C4725CC6DD500D91CC2 /* TilesMap */;
+			targetProxy = 1F253C6A25CC6DD900D91CC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F253C5125CC6DD600D91CC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F253C5225CC6DD600D91CC2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F253C5625CC6DD900D91CC2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F253C5725CC6DD900D91CC2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F253C7025CC6DD900D91CC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1F253C7125CC6DD900D91CC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F253C7325CC6DD900D91CC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 294491C322062844B056C892 /* Pods-TilesMap.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 33Y6N8UER5;
+				INFOPLIST_FILE = TilesMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = intelinair.TilesMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F253C7425CC6DD900D91CC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E8297783493D6F11B735DC7 /* Pods-TilesMap.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 33Y6N8UER5;
+				INFOPLIST_FILE = TilesMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = intelinair.TilesMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1F253C7625CC6DD900D91CC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BEACC9CFE25C2DD4257A274 /* Pods-TilesMapTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 33Y6N8UER5;
+				INFOPLIST_FILE = TilesMapTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = intelinair.TilesMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TilesMap.app/TilesMap";
+			};
+			name = Debug;
+		};
+		1F253C7725CC6DD900D91CC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD7FC21BDF362438EA660534 /* Pods-TilesMapTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 33Y6N8UER5;
+				INFOPLIST_FILE = TilesMapTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = intelinair.TilesMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TilesMap.app/TilesMap";
+			};
+			name = Release;
+		};
+		1F253C7925CC6DD900D91CC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85C4CFD1D8788CB0E1F45E32 /* Pods-TilesMap-TilesMapUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 33Y6N8UER5;
+				INFOPLIST_FILE = TilesMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = intelinair.TilesMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TilesMap;
+			};
+			name = Debug;
+		};
+		1F253C7A25CC6DD900D91CC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F8D09C3CFDBBE062F2CB686 /* Pods-TilesMap-TilesMapUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 33Y6N8UER5;
+				INFOPLIST_FILE = TilesMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = intelinair.TilesMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TilesMap;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F253C4325CC6DD500D91CC2 /* Build configuration list for PBXProject "TilesMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F253C7025CC6DD900D91CC2 /* Debug */,
+				1F253C7125CC6DD900D91CC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F253C7225CC6DD900D91CC2 /* Build configuration list for PBXNativeTarget "TilesMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F253C7325CC6DD900D91CC2 /* Debug */,
+				1F253C7425CC6DD900D91CC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F253C7525CC6DD900D91CC2 /* Build configuration list for PBXNativeTarget "TilesMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F253C7625CC6DD900D91CC2 /* Debug */,
+				1F253C7725CC6DD900D91CC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F253C7825CC6DD900D91CC2 /* Build configuration list for PBXNativeTarget "TilesMapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F253C7925CC6DD900D91CC2 /* Debug */,
+				1F253C7A25CC6DD900D91CC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F253C4025CC6DD500D91CC2 /* Project object */;
+}
